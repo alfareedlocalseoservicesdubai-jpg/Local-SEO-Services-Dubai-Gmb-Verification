@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Local SEO Meta Tags -->
+    <title>Local SEO & Web Design Dubai | Al Fareed Local SEO Services</title>
+    <meta name="description" content="Al Fareed Local SEO Services provides expert local search optimization, website design, and GMB verification services in Dubai, including Al Barsha, Dubai Marina, and JLT. Call today!">
+    <meta name="keywords" content="Local SEO Dubai, Website Design Dubai, GMB Verification Dubai, Google Maps Optimization Al Barsha, Digital Marketing Dubai">
+    <meta name="robots" content="index, follow">
+
+    <!-- Schema.org Structured Data for Local Business -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ProfessionalService",
+      "name": "Al Fareed Local SEO Services Dubai - Website Designing & GMB Verification Services",
+      "image": "https://maps.google.com/maps?cid=8269042605870059409",
+      "@id": "https://maps.google.com/maps?cid=8269042605870059409",
+      "url": "https://alfareedlocalseo.com",
+      "telephone": "+923195606892",
+      "priceRange": "$$",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Al Barsha First - Al Barsha",
+        "addressLocality": "Dubai",
+        "addressRegion": "Dubai",
+        "addressCountry": "AE"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 25.1140543,
+        "longitude": 55.2067749
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ],
+        "opens": "00:00",
+        "closes": "23:59"
+      },
+      "areaServed": [
+        {
+          "@type": "AdministrativeArea",
+          "name": "Al Barsha"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Dubai Marina"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "JLT"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Downtown Dubai"
+        }
+      ],
+      "sameAs": [
+        "https://maps.google.com/maps?cid=8269042605870059409"
+      ]
+    }
+    </script>
+
+    <style>
+        /* CSS Variables & Theme Setup */
+        :root {
+            --primary-color: #0b2545;   /* Deep Navy */
+            --secondary-color: #134074; /* Rich Blue */
+            --accent-color: #f4a261;    /* Warm Gold/Amber */
+            --accent-hover: #e76f51;    /* Deep Gold/Coral */
+            --whatsapp-color: #25D366;  /* WhatsApp Green */
+            --whatsapp-hover: #1da851;
+            --text-color: #1d2d44;
+            --light-bg: #eef4f8;
+            --white: #ffffff;
+            --shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+            --transition: all 0.3s ease;
+        }
+
+        /* Reset & Base Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            color: var(--text-color);
+            line-height: 1.6;
+            background-color: var(--white);
+            padding-bottom: 70px; /* Space for fixed mobile CTA bar */
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+
+        /* Section Styling */
+        section {
+            padding: 70px 0;
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 45px;
+        }
+
+        .section-title h2 {
+            font-size: 2.2rem;
+            color: var(--primary-color);
+            margin-bottom: 10px;
+            text-transform: capitalize;
+        }
+
+        .section-title p {
+            color: #555;
+            font-size: 1.1rem;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        /* Buttons */
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 14px 28px;
+            font-size: 1rem;
+            font-weight: 700;
+            border-radius: 6px;
+            transition: var(--transition);
+            cursor: pointer;
+            gap: 10px;
+            border: none;
+        }
+
+        .btn-primary {
+            background-color: var(--accent-color);
+            color: var(--primary-color);
+        }
+
+        .btn-primary:hover {
+            background-color: var(--accent-hover);
+            color: var(--white);
+        }
+
+        .btn-whatsapp {
+            background-color: var(--whatsapp-color);
+            color: var(--white);
+        }
+
+        .btn-whatsapp:hover {
+            background-color: var(--whatsapp-hover);
+        }
+
+        /* Header */
+        header {
+            background-color: var(--white);
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            padding: 15px 0;
+        }
+
+        header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.3rem;
+            font-weight: 800;
+            color: var(--primary-color);
+            line-height: 1.2;
+        }
+
+        .logo span {
+            color: var(--accent-color);
+        }
+
+        .header-cta {
+            display: flex;
+            gap: 15px;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+            color: var(--white);
+            padding: 90px 0;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 2.8rem;
+            line-height: 1.2;
+            margin-bottom: 20px;
+            font-weight: 800;
+        }
+
+        .hero p {
+            font-size: 1.25rem;
+            max-width: 750px;
+            margin: 0 auto 35px;
+            opacity: 0.9;
+        }
+
+        .hero-cta-group {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .hero-badges {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            margin-top: 40px;
+            font-size: 0.95rem;
+            opacity: 0.85;
+            flex-wrap: wrap;
+        }
+
+        /* Services Section */
+        .services {
+            background-color: var(--light-bg);
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 30px;
+        }
+
+        .service-card {
+            background: var(--white);
+            padding: 35px 25px;
+            border-radius: 8px;
+            box-shadow: var(--shadow);
+            transition: var(--transition);
+            border-top: 4px solid var(--accent-color);
+        }
+
+        .service-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .service-card h3 {
+            font-size: 1.4rem;
+            color: var(--primary-color);
+            margin-bottom: 15px;
+        }
+
+        .service-card p {
+            color: #666;
+            font-size: 0.98rem;
+        }
+
+        /* Why Choose Us Section */
+        .why-us-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 25px;
+        }
+
+        .feature-box {
+            text-align: center;
+            padding: 30px 20px;
+            background: var(--white);
+            border-radius: 8px;
+            box-shadow: var(--shadow);
+        }
+
+        .feature-icon {
+            width: 60px;
+            height: 60px;
+            background-color: var(--light-bg);
+            color: var(--primary-color);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 20px;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        .feature-box h3 {
+            font-size: 1.2rem;
+            color: var(--primary-color);
+            margin-bottom: 10px;
+        }
+
+        .feature-box p {
+            color: #666;
+            font-size: 0.95rem;
+        }
+
+        /* Contact & Map Section */
+        .contact-map-section {
+            background-color: var(--light-bg);
+        }
+
+        .contact-map-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            align-items: start;
+        }
+
+        .contact-info {
+            background: var(--white);
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: var(--shadow);
+        }
+
+        .contact-info h3 {
+            font-size: 1.6rem;
+            color: var(--primary-color);
+            margin-bottom: 25px;
+        }
+
+        .info-item {
+            margin-bottom: 20px;
+        }
+
+        .info-item strong {
+            display: block;
+            color: var(--primary-color);
+            font-size: 1.05rem;
+            margin-bottom: 5px;
+        }
+
+        .info-item p, .info-item a {
+            color: #555;
+            font-size: 0.98rem;
+        }
+
+        .area-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-top: 10px;
+        }
+
+        .tag {
+            background-color: var(--light-bg);
+            color: var(--primary-color);
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+        }
+
+        .map-container {
+            width: 100%;
+            height: 100%;
+            min-height: 400px;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: var(--shadow);
+        }
+
+        .map-container iframe {
+            width: 100%;
+            height: 100%;
+            min-height: 400px;
+            border: 0;
+        }
+
+        /* Footer */
+        footer {
+            background-color: var(--primary-color);
+            color: var(--white);
+            padding: 30px 0;
+            text-align: center;
+            font-size: 0.9rem;
+            opacity: 0.95;
+        }
+
+        /* Fixed Mobile Call/WhatsApp Bar */
+        .mobile-fixed-bar {
+            display: none;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background: var(--white);
+            box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.15);
+            z-index: 9999;
+            padding: 10px 15px;
+        }
+
+        .mobile-bar-buttons {
+            display: flex;
+            gap: 10px;
+            width: 100%;
+        }
+
+        .mobile-bar-buttons .btn {
+            flex: 1;
+            padding: 12px;
+            font-size: 0.95rem;
+        }
+
+        /* Responsive Styles */
+        @media (max-width: 992px) {
+            .contact-map-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2.1rem;
+            }
+
+            .hero p {
+                font-size: 1.05rem;
+            }
+
+            .header-cta {
+                display: none; /* Hidden on header for mobile, covered by sticky bar */
+            }
+
+            .mobile-fixed-bar {
+                display: block;
+            }
+
+            section {
+                padding: 50px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                Al Fareed <span>Local SEO</span>
+            </div>
+            <div class="header-cta">
+                <a href="tel:+923195606892" class="btn btn-primary">Call Now</a>
+                <a href="https://wa.me/923195606892?text=Hello%20Al%20Fareed%20SEO,%20I%20would%20like%20to%20inquire%20about%20your%20services." class="btn btn-whatsapp" target="_blank">WhatsApp</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Expert Local SEO & Web Design Services in Dubai</h1>
+            <p>Empowering local service businesses across Dubai with high-converting websites, Google Maps top-ranking optimization, and guaranteed business profile setup.</p>
+            <div class="hero-cta-group">
+                <a href="tel:+923195606892" class="btn btn-primary">Call +92 319 5606892</a>
+                <a href="https://wa.me/923195606892?text=Hello,%20I%20need%20a%20consultation%20for%20Local%20SEO%20in%20Dubai." class="btn btn-whatsapp" target="_blank">Chat on WhatsApp</a>
+            </div>
+            <div class="hero-badges">
+                <span>✓ Verified GMB Optimization</span>
+                <span>✓ Fast High-Converting Web Design</span>
+                <span>✓ Proven Dubai Search Rankings</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Core Local Services</h2>
+                <p>Tailored digital growth and search positioning strategies built for Dubai businesses.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3>Local SEO Optimization</h3>
+                    <p>Rank at the top of local search results in Dubai. We target neighborhood-level search terms across Al Barsha, JLT, and Dubai Marina to attract ready-to-buy local clients.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Google Business Profile Setup</h3>
+                    <p>Complete setup, optimization, and verification support for your Google Maps profile to dominate the local 3-Pack and receive direct phone leads.</p>
+                </div>
+                <div class="service-card">
+                    <h3>High-Converting Web Design</h3>
+                    <p>Fast, mobile-responsive, and SEO-built landing pages designed specifically to turn website visitors into phone calls and WhatsApp inquiries.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Targeted Lead Campaigns</h3>
+                    <p>Data-driven local PPC and lead generation campaigns tailored to service providers looking for consistent, measurable ROI in the Gulf region.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="why-us">
+        <div class="container">
+            <div class="section-title">
+                <h2>Why Choose Al Fareed SEO</h2>
+                <p>Dedicated digital expertise focused strictly on measurable business growth and local market visibility.</p>
+            </div>
+            <div class="why-us-grid">
+                <div class="feature-box">
+                    <div class="feature-icon">1</div>
+                    <h3>Proven Local Track Record</h3>
+                    <p>Years of hands-on experience optimizing service-based profiles across Dubai and the Gulf regions.</p>
+                </div>
+                <div class="feature-box">
+                    <div class="feature-icon">2</div>
+                    <h3>Transparent Execution</h3>
+                    <p>Clear communication with zero hidden charges. You receive straightforward performance updates and strategies.</p>
+                </div>
+                <div class="feature-box">
+                    <div class="feature-icon">3</div>
+                    <h3>Mobile-First Approach</h3>
+                    <p>Over 80% of local Dubai inquiries happen on mobile—our designs and strategies focus heavily on instant tap-to-call conversions.</p>
+                </div>
+                <div class="feature-box">
+                    <div class="feature-icon">4</div>
+                    <h3>Guaranteed SEO Focus</h3>
+                    <p>Every line of code and content structure follows strict Google Local Search recommendations and structured data guidelines.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Map Section -->
+    <section class="contact-map-section">
+        <div class="container">
+            <div class="contact-map-grid">
+                
+                <!-- Contact Details -->
+                <div class="contact-info">
+                    <h3>Get In Touch</h3>
+                    
+                    <div class="info-item">
+                        <strong>Primary Contact / Phone:</strong>
+                        <p><a href="tel:+923195606892">+92 319 5606892</a></p>
+                    </div>
+
+                    <div class="info-item">
+                        <strong>WhatsApp Assistance:</strong>
+                        <p><a href="https://wa.me/923195606892" target="_blank">+92 319 5606892</a></p>
+                    </div>
+
+                    <div class="info-item">
+                        <strong>Main Office Location:</strong>
+                        <p>Al Barsha First - Al Barsha, Dubai, United Arab Emirates</p>
+                    </div>
+
+                    <div class="info-item">
+                        <strong>Working Hours:</strong>
+                        <p>Open 24 Hours / 7 Days a Week</p>
+                    </div>
+
+                    <div class="info-item">
+                        <strong>Service Areas & Neighborhoods:</strong>
+                        <div class="area-tags">
+                            <span class="tag">Al Barsha</span>
+                            <span class="tag">Dubai Marina</span>
+                            <span class="tag">JLT (Jumeirah Lakes Towers)</span>
+                            <span class="tag">JVT</span>
+                            <span class="tag">Downtown Dubai</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Google Maps Embed -->
+                <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3612.391673820249!2d55.20419997607738!3d25.114059134720974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6be385efb3e1%3A0x72c20a8043d48f71!2sAl%20Barsha%201%20-%20Dubai%20-%20United%20Arab%20Emirates!5e0!3m2!1sen!2s!4v1700000000000!5m2!1sen!2s" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Al Fareed Local SEO Services Dubai. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Mobile Fixed Action Bar -->
+    <div class="mobile-fixed-bar">
+        <div class="mobile-bar-buttons">
+            <a href="tel:+923195606892" class="btn btn-primary">Call Now</a>
+            <a href="https://wa.me/923195606892?text=Hello,%20I%20want%20to%20inquire%20about%20your%20services." class="btn btn-whatsapp" target="_blank">WhatsApp</a>
+        </div>
+    </div>
+
+</body>
+</html>
